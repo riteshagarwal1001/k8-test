@@ -1,0 +1,4 @@
+kubectl run ritesh --image=nginx-alpine
+kubectl get pods
+kubectl port-forward ritesh 8080:80
+kubectl delete pods ritesh
